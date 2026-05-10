@@ -4,12 +4,9 @@ const About = () => {
   return (
     <div className="about-section" id="about">
       <div className="about-me">
-        <h3 className="title">About Me</h3>
+        <h3 className="title">ABOUT ME</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
-        </p>
+          I'm a passionate Software Engineer who loves building intuitive mobile and web applications that solve real problems. I specialize in cross-platform development using React Native and Flutter, paired with Node.js backends. I care deeply about writing clean, maintainable code and delivering smooth, user-centric experiences. Currently in my final year, I'm open to internship and junior developer opportunities in mobile or web development.        </p>
       </div>
     </div>
   );

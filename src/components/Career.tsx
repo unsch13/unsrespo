@@ -15,44 +15,36 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Software Engineering Student</h4>
+                <h5>COMSATS University Islamabad</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2022-2026</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Started BS Software Engineering, diving deep into Data Structures, Algorithms, OOP, and core programming with C++ and Python.            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Open Source Contributor</h4>
+                <h5>GitHub Community</h5>
+              </div>
+              <h3>2023</h3>
+            </div>
+            <p>
+              Contributed to open-source React Native and Flutter repositories on GitHub, improving UI components, fixing reported issues, and collaborating via pull requests and version control workflows.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Full Stack Developer</h4>
+                <h5>Freelance / Personal Projects</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025 - NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
+              Building cross-platform mobile and web applications using React Native, Flutter, and Node.js. Focused on delivering clean, performant, and user-centric digital products.            </p>
           </div>
         </div>
       </div>

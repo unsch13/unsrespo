@@ -36,7 +36,7 @@ export function setCharTimeline(
       invalidateOnRefresh: true,
     },
   });
-  let screenLight: any, monitor: any;
+  let monitor: any;
   character?.children.forEach((object: any) => {
     if (object.name === "Plane004") {
       object.children.forEach((child: any) => {
@@ -57,12 +57,11 @@ export function setCharTimeline(
         duration: () => Math.random() * 0.6,
         delay: () => Math.random() * 0.1,
       });
-      screenLight = object;
     }
   });
   let neckBone = character?.getObjectByName("spine005");
   if (window.innerWidth > 1024) {
-    if (character) {
+    if (character && neckBone) {
       tl1
         .fromTo(character.rotation, { y: 0 }, { y: 0.7, duration: 1 }, 0)
         .to(camera.position, { z: 22 }, 0)
@@ -86,9 +85,8 @@ export function setCharTimeline(
           0
         )
         .to(character.rotation, { y: 0.92, x: 0.12, delay: 3, duration: 3 }, 0)
-        .to(neckBone!.rotation, { x: 0.6, delay: 2, duration: 3 }, 0)
+        .to(neckBone.rotation, { x: 0.6, delay: 2, duration: 3 }, 0)
         .to(monitor.material, { opacity: 1, duration: 0.8, delay: 3.2 }, 0)
-        .to(screenLight.material, { opacity: 1, duration: 0.8, delay: 4.5 }, 0)
         .fromTo(
           ".what-box-in",
           { display: "none" },

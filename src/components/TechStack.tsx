@@ -104,7 +104,7 @@ function Pointer({ vec = new THREE.Vector3(), isActive }: PointerProps) {
     const targetVec = vec.lerp(
       new THREE.Vector3(
         (pointer.x * viewport.width) / 2,
-        (pointer.y * viewport.height) / 2,
+        ((pointer.y * viewport.height) / 2) - (viewport.height * 0.25), // Shift cluster down significantly (25% of height)
         0
       ),
       0.2
@@ -129,12 +129,13 @@ const TechStack = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollY = window.scrollY || document.documentElement.scrollTop;
-      const threshold = document
-        .getElementById("work")!
-        .getBoundingClientRect().top;
+    const scrollY = window.scrollY || document.documentElement.scrollTop;
+    const workSection = document.getElementById("work");
+    if (workSection) {
+      const threshold = workSection.getBoundingClientRect().top + scrollY;
       setIsActive(scrollY > threshold);
-    };
+    }
+  };
     document.querySelectorAll(".header a").forEach((elem) => {
       const element = elem as HTMLAnchorElement;
       element.addEventListener("click", () => {

@@ -87,24 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>Frontend</h3>
+              <h4>Mobile & Web Interfaces
+              </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I build cross-platform mobile applications using React Native and Flutter, and responsive web interfaces with React.js. Clean UI, smooth animations, and great user experience on every device.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">React Native</div>
+                <div className="what-tags">Flutter</div>
+
+                <div className="what-tags">React.js</div>
                 <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Dart</div>
+                <div className="what-tags">Expo</div>
+                <div className="what-tags">Tailwind CSS</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +126,20 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>Backend</h3>
+              <h4>Server & API Development</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I develop scalable backend systems and REST APIs using Node.js. From database integration to authentication flows, I build reliable and maintainable server-side solutions.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Node.js</div>
+                <div className="what-tags">Rest API</div>
+                <div className="what-tags">JavaScript</div>
+                <div className="what-tags">Git</div>
+                <div className="what-tags">Github</div>
+                <div className="what-tags">C++</div>
+                <div className="what-tags">VS Code</div>
               </div>
               <div className="what-arrow"></div>
             </div>
