@@ -35,7 +35,7 @@ https://gsap.com/docs/v3/Installation/
 
 ## ⚙️ Tech Stack
 
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+React • TypeScript  • HTML • CSS • JavaScript
 
 ---
 
